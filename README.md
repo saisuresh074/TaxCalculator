@@ -2,6 +2,13 @@
 Configure and calculate tax based on the country
 
 
+# Key highlights:
+
+- Clean layered architecture (Domain, Application, Infrastructure, API)
+- Strategy Pattern eliminates inheritance complexity and switch-case logic
+- Easily extendable — add new tax types with zero changes to existing code
+- Supports configurable tax rules per country
+
 ## API Endpoints
 
 ### POST /api/tax/configure
